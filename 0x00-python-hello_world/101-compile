@@ -1,0 +1,12 @@
+#!/bin/bash
+# Check if the PYFILE variable is set
+if [ -z "$PYFILE" ]
+then
+    echo "Please set the PYFILE environment variable"
+    exit 1
+fi
+
+# Compile the Python file
+echo "Compiling $PYFILE ..."
+python3 -m compileall -b $PYFILE
+
