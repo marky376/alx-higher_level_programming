@@ -1,4 +1,5 @@
+#!/usr/bin/python3
 def print_list_integer(my_list=[]):
-    for i in my_list:
-        if isinstance(i, int):
-            print(i)
+    n = my_list
+    for j in n:
+        print("{:d}".format(j))
