@@ -7,7 +7,6 @@ Creating a square method
 class Square:
     """
     a class created called square
-    
     """
     def __init__(self, size = 0):
         """
@@ -21,7 +20,6 @@ class Square:
         elif (size < 0):
             """
             If size is less than 0, raise a ValueError.
-            
             """
             raise ValueError("size must be >= 0")
         else:

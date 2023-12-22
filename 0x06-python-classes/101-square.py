@@ -65,7 +65,6 @@ class Square:
                 print(" " * self.__position[0], end="")
                 # Print hashes for the square
                 print("#" * self.__size)
-    
     # Define a special method named __str__ that returns a string representation of the square
     def __str__(self):
         # Initialize an empty string to store the square representation
