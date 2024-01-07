@@ -1,1 +1,1 @@
-A read me file on alx higher low level programming
+A radme file on higher level programming using more of python and C programming languages
