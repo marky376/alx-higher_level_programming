@@ -18,6 +18,7 @@ Usage
 ::
 
     >>> say_my_name("Mark", "Munyao")
+     # doctest: +NORMALIZE_WHITESPACE
     My name is Mark Munyao
 
 The parameter ```last_name``` is optional. If no last name is provided,
