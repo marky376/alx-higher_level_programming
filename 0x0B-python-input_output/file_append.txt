@@ -1,0 +1,2 @@
+cat: file_append.txt: No such file or directory
+This School is so cool!
