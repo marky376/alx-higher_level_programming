@@ -1,5 +1,9 @@
-SELECT tv_shows.title, IFNULL(tv_genres.name, 'NULL') AS name
-FROM tv_shows
-LEFT JOIN tv_show_genres ON tv_shows.id = tv_show_genres.tv_show_id
-LEFT JOIN tv_genres ON tv_show_genres.tv_genre_id = tv_genres.id
-ORDER BY tv_shows.title ASC, tv_genres.name ASC;
+/*
+List all shows, and all genres linked to that show, from the database hbtn_0d_tvshows.
+If a show doesn’t have a genre, display NULL in the genre column.
+*/
+SELECT TV_SHOWS.TITLE, IFNULL(TV_GENRES.NAME, 'NULL') AS NAME
+FROM TV_SHOWS
+LEFT JOIN TV_SHOW_GENRES ON TV_SHOWS.ID = TV_SHOW_GENRES.TV_SHOW_ID
+LEFT JOIN TV_GENRES ON TV_SHOW_GENRES.TV_GENRE_ID = TV_GENRES.ID
+ORDER BY TV_SHOWS.TITLE ASC, TV_GENRES.NAME ASC;
