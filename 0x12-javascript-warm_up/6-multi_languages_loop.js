@@ -7,6 +7,6 @@ const languages = [
 
 for (let i = 0; i < languages.length; i++)
 {
-	console.log(language[i]);
+	console.log(languages[i]);
 }
 
