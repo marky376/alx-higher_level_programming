@@ -1,2 +1,1 @@
-#!/usr/bin/node
-con
+
