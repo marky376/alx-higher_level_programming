@@ -12,4 +12,3 @@ for (const userId in dict) {
 }
 
 console.log(userDict);
-
