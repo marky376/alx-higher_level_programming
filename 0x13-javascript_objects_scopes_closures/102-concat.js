@@ -10,4 +10,3 @@ const contentB = fs.readFileSync(fileB, 'utf8');
 const concatenatedContent = contentA + contentB;
 
 fs.writeFileSync(destination, concatenatedContent);
-
